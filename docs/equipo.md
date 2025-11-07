@@ -14,6 +14,10 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 - **Rol:** Coordinación y elaboración de scripts
 - **Responsabilidades:**
 
-### [Nombre del miembro 3]
+### Miguel Ángel García Rueda
+- **Rol:** Desarrollador
+- **Responsabilidades:** Delivery, peer review y upskilling
+
+### [Nombre del miembro 4]
 - **Rol:**
 - **Responsabilidades:**
