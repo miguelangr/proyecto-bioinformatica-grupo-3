@@ -10,8 +10,8 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 - **Rol:** Miembro 1 
 - **Responsabilidades:** Mantenimiento del repositorio y elaboración del proyecto.
 
-### [Nombre del miembro 2]  
-- **Rol:**
+### [Manuel Pérez Pérez]  
+- **Rol:** Coordinación y elaboración de scripts
 - **Responsabilidades:**
 
 ### [Nombre del miembro 3]
