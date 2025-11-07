@@ -1,3 +1,5 @@
+*Nota: se incluye un script aleatorio con el único objetivo de practicar el uso de GitHub*
+
 # La ecuación de segundo grado tiene la forma ax^2+bx+c=0
 
 # Para resolverla, uso la fórmula x = (-b ± sqrt(b^2 - 4ac)) / (2a)
