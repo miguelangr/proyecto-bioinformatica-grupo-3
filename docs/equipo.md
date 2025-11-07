@@ -16,8 +16,7 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 
 ### Miguel Ángel García Rueda
 - **Rol:** Desarrollador
-- **Responsabilidades:** Colaborar en este proyecto y "upskilling" en Github.
-
+- **Responsabilidades:** Delivery, peer review y upskilling
 
 ### [Nombre del miembro 4]
 - **Rol:**
