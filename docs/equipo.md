@@ -6,9 +6,9 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 
 ---
 
-### [Nombre del miembro 1]
-- **Rol:** 
-- **Responsabilidades:** 
+### Carlos Manzano Basalo
+- **Rol:** Miembro 1 
+- **Responsabilidades:** Mantenimiento del repositorio y elaboración del proyecto.
 
 ### [Nombre del miembro 2]  
 - **Rol:**

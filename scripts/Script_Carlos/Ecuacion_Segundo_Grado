@@ -1,0 +1,26 @@
+# Nota: se incluye un script aleatorio con el único objetivo de practicar el uso de GitHub
+
+# La ecuación de segundo grado tiene la forma ax^2+bx+c=0
+
+# Para resolverla, uso la fórmula x = (-b ± sqrt(b^2 - 4ac)) / (2a)
+
+# Obtengo librería para cálculo
+import math 
+
+# Defino unos coeficientes como ejemplo
+a=6
+b=-18
+c=12
+
+# Defino el discriminante b^2 - 4ac y sus posibilidades
+d=b**2-4*a*c
+
+if d >= 0:
+    x1 = (-b + math.sqrt(d)) / (2*a)
+    x2 = (-b - math.sqrt(d)) / (2*a)
+    print("Las soluciones son:", x1, "y", x2)
+
+else:
+    real = -b / (2*a)
+    imag = math.sqrt(-d) / (2*a)
+    print(f"Las soluciones son complejas: {real}+{imag}i y {real}-{imag}i")
