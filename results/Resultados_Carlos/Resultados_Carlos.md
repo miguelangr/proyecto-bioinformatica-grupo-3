@@ -17,6 +17,6 @@ Se analizaron 3 secuencias de ADN ficticias para obtener estadísticas básicas 
 
 
 **Gráficos**
-plots/seq1_nucleotidos.pngFICTICIO
-plots/seq2_nucleotidos.pngFICTICIO
-plots/seq3_nucleotidos.pngFICTICIO
+- plots/seq1_nucleotidos.pngFICTICIO
+- plots/seq2_nucleotidos.pngFICTICIO
+- plots/seq3_nucleotidos.pngFICTICIO
