@@ -19,5 +19,5 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 - **Responsabilidades:** Delivery, peer review y upskilling
 
 ### Pedro Oliva Nacarino
-- **Rol: Miembro 4
+- Rol: Miembro 4
 - **Responsabilidades:** Elaboración del proyecto.
