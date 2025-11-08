@@ -18,6 +18,6 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 - **Rol:** Desarrollador
 - **Responsabilidades:** Delivery, peer review y upskilling
 
-### [Nombre del miembro 4]
-- **Rol:**
-- **Responsabilidades:**
+### Pedro Oliva Nacarino
+- **Rol: Miembro 4
+- **Responsabilidades:** Elaboración del proyecto.
