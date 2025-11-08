@@ -1,0 +1,52 @@
+library(tidyverse)
+
+# --- Datos simulados: secuencias cortas representativas ---
+set.seed(123) # asegura la aleatoridad (secuencias generadas sean siempre las mismas)
+
+genes <- c("APP", "PSEN1", "PSEN2", "APOE (ε4)")
+# Generamos secuencias aleatorias de ADN 
+# collapse = "" - une las bases sin separadores
+Secuencia_DNA <- function(length) {
+  paste0(sample(c("A", "T", "G", "C"), length, replace = TRUE), collapse = "")
+}
+
+
+secuencias <- c(
+  Secuencia_DNA(50)
+)
+
+
+# --- Crear tabla de nucleótidos --- 
+# tible- data frame
+# strsplit- Dividir texto en partes
+dna_df <- map2_dfr(
+  genes, secuencias,
+  ~ tibble(
+    Gen = .x,
+    Nucleotido = strsplit(.y, "")[[1]]
+  )
+)
+
+# --- Calcular proporción - Manipulacion de datos ---
+# Group_by - agrupar datos
+# summarise - resumir datos
+# mutate and sum - crear una nueva columna que contenga sumas
+conteo <- dna_df %>%
+  group_by(Gen, Nucleotido) %>%
+  summarise(Frecuencia = n()) %>%
+  mutate(Proporcion = Frecuencia / sum(Frecuencia))
+
+# --- Gráfico - Visualización de datos---
+# aes- mapeo estetico
+# facet_wrap - divide el grafico pricipal en 2 graficos pequeños basados en una variable
+# labs - etiquetas
+# geom_bar(stat = "identity", position = "dodge") Usar valores exatos que he defenido en mapeamento estetico evidando solapamientos
+ggplot(conteo, aes(x = Nucleotido, y = Proporcion, fill = Nucleotido)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  facet_wrap(~Gen, ncol = 2) +
+  labs(
+    title = "Distribución de nucleótidos en genes asociados al Alzheimer",
+    x = "Nucleótido",
+    y = "Proporción"
+  ) +
+  theme_minimal(base_size = 12)
