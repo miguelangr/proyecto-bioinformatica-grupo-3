@@ -21,3 +21,6 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 ### Pedro Oliva Nacarino
 - Rol: Miembro 4
 - **Responsabilidades:** Elaboración del proyecto.
+### Ana Beatriz Serafim
+- Rol: Miembro 5
+- **Responsabilidades**: Coordenar el proyecto y Mantenimiento del repositorio
