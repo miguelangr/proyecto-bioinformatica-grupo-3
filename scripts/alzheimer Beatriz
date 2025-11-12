@@ -50,3 +50,25 @@ ggplot(conteo, aes(x = Nucleotido, y = Proporcion, fill = Nucleotido)) +
     y = "Proporción"
   ) +
   theme_minimal(base_size = 12)
+
+# Resumir los datos de Alzheimer en una tabla
+library(gt)
+
+conteo <- tibble(
+  Gen = rep(c("APP", "PSEN1"), each = 4),
+  Nucleotido = rep(c("A", "T", "G", "C"), times = 2),
+  Frecuencia = c(12, 15, 11, 12, 10, 14, 16, 10)
+) %>%
+  group_by(Gen) %>%
+  mutate(Proporcion = Frecuencia / sum(Frecuencia))
+
+# Crear la tabla gt
+tabla_conteo <- conteo %>%
+  gt() %>%
+  tab_header(
+    title = md("Distribución de nucleótidos por gen — Alzheimer"),
+    subtitle = "Frecuencia y proporción de bases"
+  ) %>%
+  fmt_percent(columns = Proporcion, decimals = 1)
+tabla_conteo
+gtsave(tabla_conteo, "tabla_conteo_alzheimer.html")
