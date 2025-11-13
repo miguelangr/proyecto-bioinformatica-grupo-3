@@ -7,8 +7,8 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 ---
 
 ### Carlos Manzano Basalo
-- **Rol:** Miembro 1 
-- **Responsabilidades:** Mantenimiento del repositorio y elaboración del proyecto.
+- **Rol:** Miembro 1
+- **Responsabilidades:** Coordinación del proyecto y mantenimiento del repositorio.
 
 ### Manuel Pérez Pérez
 - **Rol:** Coordinación y elaboración de scripts
