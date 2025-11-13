@@ -6,7 +6,7 @@ _Cada miembro del equipo añadirá su información aquí mediante un pull reques
 
 ---
 
-### Carlos Manzano Basalo
+### Carlos Manzano Basalo (@cmanzb)
 - **Rol:** Miembro 1
 - **Responsabilidades:** Coordinación del proyecto y mantenimiento del repositorio.
 
