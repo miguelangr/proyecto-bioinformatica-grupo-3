@@ -9,7 +9,7 @@ Este archivo contiene datos aleatorios de secuencias de ADN para practicar GitHu
 | Seq1  | ATGCGTACGTTAGC...    | 1500     | 26 | 26 | 24 | 24 | 
 | Seq2  | CGTACGTAGCTAGC...    | 1200     | 22 | 26 | 27 | 25 | 
 | Seq3  | TAGCTAGCTAGCTA...    | 1800     | 27 | 27 | 23 | 23 | 
-| Seq4  | ATGCTAGCTAGCTG...    | 1350     | 25 | 25 | 25 | 25 | 
+| Seq4  | ATGCTAGCTAGCTG...    | 1350     | 26 | 25 | 25 | 25 | 
 | Seq5  | GCTAGCTAGCTAGC...    | 1600     | 24 | 24 | 26 | 26 | 
 | Seq6  | TAGCTAGCTAGTAC...    | 1400     | 23 | 27 | 26 | 24 | 
 | Seq7  | CGTAGCTAGCTAGT...    | 1550     | 26 | 24 | 25 | 25 | 
