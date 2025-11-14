@@ -40,7 +40,8 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+#docs/ - 
+#no ignoro los docs descomentar la linea de arriba si se quiere ignorar.
 
 # translation temp files
 po/*~
